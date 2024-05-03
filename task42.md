@@ -70,7 +70,7 @@
 pip install torch torchvision
 ```
 
-`xxx.py` 是使用PyTorch的示例代码。
+`task421.py` 是使用PyTorch的示例代码。
 
 这段代码提供了一个基本的框架，包括数据集类的定义、模型的构建、训练过程和图像识别。您需要根据实际情况调整数据集类以加载和预处理您的图像，以及可能需要调整模型结构以提高性能。
 
@@ -86,7 +86,7 @@ pip install torch torchvision
 pip install tensorflow opencv-python
 ```
 
-`xxx.py` 是一个简单的MNIST模型训练和图像识别的示例代码。
+`task422.py` 是一个简单的MNIST模型训练和图像识别的示例代码。
 
 请注意，这段代码仅用于演示如何使用MNIST数据集训练一个简单的神经网络，并使用该网络对单个图像进行预测。在实际应用中，您需要对每个图像进行分割和预处理，然后对每个分割后的图像进行预测。
 
