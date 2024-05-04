@@ -118,7 +118,7 @@ for epoch in range(epochs):
     print(f'Accuracy of the network on the test images: {100 * correct / total}%')
 
 # 保存模型权重
-model_path = './model/mymodel'
+model_path = './model/mynet.bin'
 file_path = Path(os.getcwd() + os.path.sep + model_path)
 file_path.touch()
 torch.save(model.state_dict(), file_path)  # 保存模型权重
